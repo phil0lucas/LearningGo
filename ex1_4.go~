@@ -18,9 +18,9 @@ import(
 
 func main(){
 	counts := make(map[string] int)
-	found := make(map[string] make([]int, 2, 4))
-	
 	files := os.Args[1:]
+	n_files = len(files)
+	found := make(map[string] [n_files]string)
 	// File processing here
 	// The value of the index should show which file is involved
 	for index, arg := range files {
@@ -32,7 +32,7 @@ func main(){
 		input := bufio.NewScanner(f)
 		for input.Scan() {
 			counts[input.Text()]++
-			found[input.Text()].append(index)
+			found[input.Text()][index] = os.Args[index]
 		}		
 		f.Close()
 	}
