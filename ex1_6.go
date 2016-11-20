@@ -10,13 +10,15 @@ import (
 	"os"
 )
 
-var palette = []color.Color{color.White, color.Red, color.Blue, color.Black}
+var red = color.RGBA{0xff, 0x00, 0x00, 0xff}
+var blue = color.RGBA{0x00, 0x00, 0xff, 0xff}
+var palette = []color.Color{color.White, red, blue, color.Black}
 
 const (
 	whiteIndex = 0
-	blackIndex = 1
-    redIndex = 2
-    blueIndex = 3
+	blackIndex = 3
+    redIndex = 1
+    blueIndex = 2
 )
 
 func main() {
