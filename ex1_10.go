@@ -13,6 +13,12 @@ import (
 
 func main(){
     start := time.Now()
+	file, err := os.OpenFile("ex1_10_output.txt", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0660)
+	defer file.Close()
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(3)
+}    
     ch := make(chan string)
 
 	for _, url := range os.Args[1:] {
@@ -20,10 +26,10 @@ func main(){
 	}
 	
 	for range os.Args[1:] {
-	    fmt.Println(<-ch)
+	    fmt.Fprintln(file, <-ch)
 	}
 	
-	fmt.Printf("%.2fs elapsed\n", time.Since(start).Seconds())
+	fmt.Fprintf(file, "%.2fs elapsed\n", time.Since(start).Seconds())
 }
 	
 func fetch(url string, ch chan<- string) {
