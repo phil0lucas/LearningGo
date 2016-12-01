@@ -1,18 +1,20 @@
 package popcount2
 
-var pc [256]byte
-
-func init() {
-	for i, _ := range pc {
-		pc[i] = pc[i/2] + byte(i&1)
-	}
-}
-
 func PopCount(x uint64) int {
 	count := 0
-	var i uint8
-	for i = 0; i < 7; i++ {
-		count += int(pc[byte(x>>(i*8))])
+	var i int8
+	for i = 0; i < 64; i++ {
+		if hasBit(x, 0) {
+			count ++
+		}
+		x = x >> 1		
 	}
 	return count
 }
+
+func hasBit(n uint64, pos uint) bool {
+    val := n & (1 << pos)
+    return (val > 0)
+}
+
+
