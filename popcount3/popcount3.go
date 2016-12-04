@@ -1,13 +1,16 @@
 package popcount3
 
+import "fmt"
+
 func PopCount(x uint64) int {
+	fmt.Printf("The input: %b\n", x)
 	count := 0
-	var i int8
-	for i = 0; i < 64; i++ {
-		for x != 0 {
-			x = x & (x - 1) // clear rightmost non-zero bit		
-			count ++
-		}
+	for x != 0 {
+		fmt.Printf("Before: %b\n", x)
+		x = x & (x - 1) // clear rightmost non-zero bit		
+		fmt.Printf(" After: %b\n", x)
+		count ++
+		fmt.Printf("Count value %v:\n", count)
 	}
 	return count
 }
