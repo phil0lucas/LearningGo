@@ -5,6 +5,8 @@ import (
 	"math"
 )
 
+// Isometric projection is done by setting the angle of the front point
+// lines to the horizontal to 30 degrees
 const (
 	width, height		=	600, 320 				// canvas size in pixels
 	cells				=	100 					// number of grid cells
