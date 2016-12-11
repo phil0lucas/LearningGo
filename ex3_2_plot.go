@@ -1,26 +1,49 @@
 package main
 
 import (
-    "github.com/ajstarks/svgo"
-    "os"
+    "math/rand"
+    "github.com/gonum/plot"
+    "github.com/gonum/plot/plotter"
+    "github.com/gonum/plot/plotutil"
+    "github.com/gonum/plot/vg"    
 )
 
 func main() {
-    width := 800
-    height := 500
-    canvas := svg.New(os.Stdout)
-    canvas.Start(width, height)
-    canvas.Rect(0, 0, width, height, "fill:none;stroke:blue")
-    canvas.Text(width/2, 10, "First Header", "text-anchor:middle;font-size:10px;fill:black")
-    canvas.Text(width/2, 30, "Second Header", "text-anchor:middle;font-size:10px;fill:black") 
-    canvas.Text(width/2, 50, "Third Header", "text-anchor:middle;font-size:10px;fill:black")     
-    canvas.Text(width/20, (height - 10), "First Footer", "text-anchor:left;font-size:10px;fill:black")
-    canvas.Text(width/20, (height - 30), "Second Footer", "text-anchor:left;font-size:10px;fill:black") 
-    canvas.Text(width/20, (height - 50), "Third Footer", "text-anchor:left;font-size:10px;fill:black")
-    canvas.Line(100, 100, 100, 400, "stroke:black")
-    canvas.Line(100, 400, 700, 400, "stroke:black")    
-	canvas.Text(50, 100, "Axis Text", "rotate:90;text-anchor:left;font-size:10px;fill:black")
+    rand.Seed(int64(0))
 
-      
-    canvas.End()
+    p, err := plot.New()
+    if err != nil {
+        panic(err)
+    }
+
+    p.Title.Text = "Plotutil example"
+    p.X.Label.Text = "X"
+    p.Y.Label.Text = "Y"
+
+    err = plotutil.AddLinePoints(p,
+        "First", randomPoints(15),
+        "Second", randomPoints(15),
+        "Third", randomPoints(15))
+    if err != nil {
+        panic(err)
+    }
+
+    // Save the plot to a PNG file.
+    if err := p.Save(4*vg.Inch, 4*vg.Inch, "points.png"); err != nil {
+        panic(err)
+    }
+}
+
+// randomPoints returns some random x, y points.
+func randomPoints(n int) plotter.XYs {
+    pts := make(plotter.XYs, n)
+    for i := range pts {
+        if i == 0 {
+            pts[i].X = rand.Float64()
+        } else {
+            pts[i].X = pts[i-1].X + rand.Float64()
+        }
+        pts[i].Y = pts[i].X + 10*rand.Float64()
+    }
+    return pts
 }
