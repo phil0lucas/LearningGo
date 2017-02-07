@@ -2,11 +2,11 @@
 package main
 
 import (
-	"os" 
 	"fmt"
+	"os"
 )
 
-func main(){
+func main() {
 	var s, sep string
 	for ii := 1; ii < len(os.Args); ii++ {
 		s += sep + os.Args[ii]

@@ -5,11 +5,9 @@ import (
 	"math"
 )
 
-// Isometric projection is done by setting the angle of the front point
-// lines to the horizontal to 30 degrees
 const (
 	width, height		=	600, 320 				// canvas size in pixels
-	cells				=	100	 					// number of grid cells
+	cells				=	100 					// number of grid cells
 	xyrange				=	30.0					// axis ranges (-xyrange...+xyrange)
 	xyscale				=	width / 2 / xyrange 	// pixels per x or y unit
 	zscale				=	height * 0.4			// pixels per z unit
@@ -49,6 +47,9 @@ func corner(i, j int) (float64, float64) {
 
 func f(x, y float64) float64 {
 	r := math.Hypot(x, y) // distance from (0,0)
-	// return math.Sin(r) / r
-	return math.Sin(r) /r
+	if r != 0 {
+		return math.Sin(r) / r
+	} else {
+		return 0
+	}
 }
