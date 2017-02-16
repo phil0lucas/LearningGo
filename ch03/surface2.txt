@@ -1,0 +1,150 @@
+Cell: i=0, j=0
+Original x=1, y=0	 In 3D space x= -9.00, y=-15.00, z=-0.056	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=-24.00, yfact=  5.00, zterm= -7.15	 Corner A: ax=351.96, ay= 47.15
+Original x=0, y=0	 In 3D space x=-15.00, y=-15.00, z= 0.033	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=-30.00, yfact=  5.00, zterm=  4.23	 Corner B: bx=300.00, by=  5.77
+Original x=0, y=1	 In 3D space x=-15.00, y= -9.00, z=-0.056	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=-24.00, yfact=  5.00, zterm= -7.15	 Corner C: cx=248.04, cy= 47.15
+Original x=1, y=1	 In 3D space x= -9.00, y= -9.00, z= 0.013	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=-18.00, yfact=  5.00, zterm=  1.62	 Corner D: dx=300.00, dy= 68.38
+
+Cell: i=0, j=1
+Original x=1, y=1	 In 3D space x= -9.00, y= -9.00, z= 0.013	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=-18.00, yfact=  5.00, zterm=  1.62	 Corner A: ax=300.00, ay= 68.38
+Original x=0, y=1	 In 3D space x=-15.00, y= -9.00, z=-0.056	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=-24.00, yfact=  5.00, zterm= -7.15	 Corner B: bx=248.04, by= 47.15
+Original x=0, y=2	 In 3D space x=-15.00, y= -3.00, z= 0.026	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y=-18.00, yfact=  5.00, zterm=  3.34	 Corner C: cx=196.08, cy= 66.66
+Original x=1, y=2	 In 3D space x= -9.00, y= -3.00, z=-0.007	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm= -0.84	 Corner D: dx=248.04, dy=100.84
+
+Cell: i=0, j=2
+Original x=1, y=2	 In 3D space x= -9.00, y= -3.00, z=-0.007	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm= -0.84	 Corner A: ax=248.04, ay=100.84
+Original x=0, y=2	 In 3D space x=-15.00, y= -3.00, z= 0.026	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y=-18.00, yfact=  5.00, zterm=  3.34	 Corner B: bx=196.08, by= 66.66
+Original x=0, y=3	 In 3D space x=-15.00, y=  3.00, z= 0.026	 Projection to X: x-y=-18.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm=  3.34	 Corner C: cx=144.12, cy= 96.66
+Original x=1, y=3	 In 3D space x= -9.00, y=  3.00, z=-0.007	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -0.84	 Corner D: dx=196.08, dy=130.84
+
+Cell: i=0, j=3
+Original x=1, y=3	 In 3D space x= -9.00, y=  3.00, z=-0.007	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -0.84	 Corner A: ax=196.08, ay=130.84
+Original x=0, y=3	 In 3D space x=-15.00, y=  3.00, z= 0.026	 Projection to X: x-y=-18.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm=  3.34	 Corner B: bx=144.12, by= 96.66
+Original x=0, y=4	 In 3D space x=-15.00, y=  9.00, z=-0.056	 Projection to X: x-y=-24.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -7.15	 Corner C: cx= 92.15, cy=137.15
+Original x=1, y=4	 In 3D space x= -9.00, y=  9.00, z= 0.013	 Projection to X: x-y=-18.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  1.62	 Corner D: dx=144.12, dy=158.38
+
+Cell: i=0, j=4
+Original x=1, y=4	 In 3D space x= -9.00, y=  9.00, z= 0.013	 Projection to X: x-y=-18.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  1.62	 Corner A: ax=144.12, ay=158.38
+Original x=0, y=4	 In 3D space x=-15.00, y=  9.00, z=-0.056	 Projection to X: x-y=-24.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -7.15	 Corner B: bx= 92.15, by=137.15
+Original x=0, y=5	 In 3D space x=-15.00, y= 15.00, z= 0.033	 Projection to X: x-y=-30.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  4.23	 Corner C: cx= 40.19, cy=155.77
+Original x=1, y=5	 In 3D space x= -9.00, y= 15.00, z=-0.056	 Projection to X: x-y=-24.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -7.15	 Corner D: dx= 92.15, dy=197.15
+
+Cell: i=1, j=0
+Original x=2, y=0	 In 3D space x= -3.00, y=-15.00, z= 0.026	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y=-18.00, yfact=  5.00, zterm=  3.34	 Corner A: ax=403.92, ay= 66.66
+Original x=1, y=0	 In 3D space x= -9.00, y=-15.00, z=-0.056	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=-24.00, yfact=  5.00, zterm= -7.15	 Corner B: bx=351.96, by= 47.15
+Original x=1, y=1	 In 3D space x= -9.00, y= -9.00, z= 0.013	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=-18.00, yfact=  5.00, zterm=  1.62	 Corner C: cx=300.00, cy= 68.38
+Original x=2, y=1	 In 3D space x= -3.00, y= -9.00, z=-0.007	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm= -0.84	 Corner D: dx=351.96, dy=100.84
+
+Cell: i=1, j=1
+Original x=2, y=1	 In 3D space x= -3.00, y= -9.00, z=-0.007	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm= -0.84	 Corner A: ax=351.96, ay=100.84
+Original x=1, y=1	 In 3D space x= -9.00, y= -9.00, z= 0.013	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=-18.00, yfact=  5.00, zterm=  1.62	 Corner B: bx=300.00, by= 68.38
+Original x=1, y=2	 In 3D space x= -9.00, y= -3.00, z=-0.007	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm= -0.84	 Corner C: cx=248.04, cy=100.84
+Original x=2, y=2	 In 3D space x= -3.00, y= -3.00, z=-0.210	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm=-26.90	 Corner D: dx=300.00, dy=156.90
+
+Cell: i=1, j=2
+Original x=2, y=2	 In 3D space x= -3.00, y= -3.00, z=-0.210	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm=-26.90	 Corner A: ax=300.00, ay=156.90
+Original x=1, y=2	 In 3D space x= -9.00, y= -3.00, z=-0.007	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm= -0.84	 Corner B: bx=248.04, by=100.84
+Original x=1, y=3	 In 3D space x= -9.00, y=  3.00, z=-0.007	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -0.84	 Corner C: cx=196.08, cy=130.84
+Original x=2, y=3	 In 3D space x= -3.00, y=  3.00, z=-0.210	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=-26.90	 Corner D: dx=248.04, dy=186.90
+
+Cell: i=1, j=3
+Original x=2, y=3	 In 3D space x= -3.00, y=  3.00, z=-0.210	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=-26.90	 Corner A: ax=248.04, ay=186.90
+Original x=1, y=3	 In 3D space x= -9.00, y=  3.00, z=-0.007	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -0.84	 Corner B: bx=196.08, by=130.84
+Original x=1, y=4	 In 3D space x= -9.00, y=  9.00, z= 0.013	 Projection to X: x-y=-18.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  1.62	 Corner C: cx=144.12, cy=158.38
+Original x=2, y=4	 In 3D space x= -3.00, y=  9.00, z=-0.007	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -0.84	 Corner D: dx=196.08, dy=190.84
+
+Cell: i=1, j=4
+Original x=2, y=4	 In 3D space x= -3.00, y=  9.00, z=-0.007	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -0.84	 Corner A: ax=196.08, ay=190.84
+Original x=1, y=4	 In 3D space x= -9.00, y=  9.00, z= 0.013	 Projection to X: x-y=-18.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  1.62	 Corner B: bx=144.12, by=158.38
+Original x=1, y=5	 In 3D space x= -9.00, y= 15.00, z=-0.056	 Projection to X: x-y=-24.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -7.15	 Corner C: cx= 92.15, cy=197.15
+Original x=2, y=5	 In 3D space x= -3.00, y= 15.00, z= 0.026	 Projection to X: x-y=-18.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm=  3.34	 Corner D: dx=144.12, dy=216.66
+
+Cell: i=2, j=0
+Original x=3, y=0	 In 3D space x=  3.00, y=-15.00, z= 0.026	 Projection to X: x-y= 18.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm=  3.34	 Corner A: ax=455.88, ay= 96.66
+Original x=2, y=0	 In 3D space x= -3.00, y=-15.00, z= 0.026	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y=-18.00, yfact=  5.00, zterm=  3.34	 Corner B: bx=403.92, by= 66.66
+Original x=2, y=1	 In 3D space x= -3.00, y= -9.00, z=-0.007	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm= -0.84	 Corner C: cx=351.96, cy=100.84
+Original x=3, y=1	 In 3D space x=  3.00, y= -9.00, z=-0.007	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -0.84	 Corner D: dx=403.92, dy=130.84
+
+Cell: i=2, j=1
+Original x=3, y=1	 In 3D space x=  3.00, y= -9.00, z=-0.007	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -0.84	 Corner A: ax=403.92, ay=130.84
+Original x=2, y=1	 In 3D space x= -3.00, y= -9.00, z=-0.007	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm= -0.84	 Corner B: bx=351.96, by=100.84
+Original x=2, y=2	 In 3D space x= -3.00, y= -3.00, z=-0.210	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm=-26.90	 Corner C: cx=300.00, cy=156.90
+Original x=3, y=2	 In 3D space x=  3.00, y= -3.00, z=-0.210	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=-26.90	 Corner D: dx=351.96, dy=186.90
+
+Cell: i=2, j=2
+Original x=3, y=2	 In 3D space x=  3.00, y= -3.00, z=-0.210	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=-26.90	 Corner A: ax=351.96, ay=186.90
+Original x=2, y=2	 In 3D space x= -3.00, y= -3.00, z=-0.210	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm=-26.90	 Corner B: bx=300.00, by=156.90
+Original x=2, y=3	 In 3D space x= -3.00, y=  3.00, z=-0.210	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=-26.90	 Corner C: cx=248.04, cy=186.90
+Original x=3, y=3	 In 3D space x=  3.00, y=  3.00, z=-0.210	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm=-26.90	 Corner D: dx=300.00, dy=216.90
+
+Cell: i=2, j=3
+Original x=3, y=3	 In 3D space x=  3.00, y=  3.00, z=-0.210	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm=-26.90	 Corner A: ax=300.00, ay=216.90
+Original x=2, y=3	 In 3D space x= -3.00, y=  3.00, z=-0.210	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=-26.90	 Corner B: bx=248.04, by=186.90
+Original x=2, y=4	 In 3D space x= -3.00, y=  9.00, z=-0.007	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -0.84	 Corner C: cx=196.08, cy=190.84
+Original x=3, y=4	 In 3D space x=  3.00, y=  9.00, z=-0.007	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm= -0.84	 Corner D: dx=248.04, dy=220.84
+
+Cell: i=2, j=4
+Original x=3, y=4	 In 3D space x=  3.00, y=  9.00, z=-0.007	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm= -0.84	 Corner A: ax=248.04, ay=220.84
+Original x=2, y=4	 In 3D space x= -3.00, y=  9.00, z=-0.007	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -0.84	 Corner B: bx=196.08, by=190.84
+Original x=2, y=5	 In 3D space x= -3.00, y= 15.00, z= 0.026	 Projection to X: x-y=-18.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm=  3.34	 Corner C: cx=144.12, cy=216.66
+Original x=3, y=5	 In 3D space x=  3.00, y= 15.00, z= 0.026	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y= 18.00, yfact=  5.00, zterm=  3.34	 Corner D: dx=196.08, dy=246.66
+
+Cell: i=3, j=0
+Original x=4, y=0	 In 3D space x=  9.00, y=-15.00, z=-0.056	 Projection to X: x-y= 24.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -7.15	 Corner A: ax=507.85, ay=137.15
+Original x=3, y=0	 In 3D space x=  3.00, y=-15.00, z= 0.026	 Projection to X: x-y= 18.00, xfact=  8.66	 Projection to Y: x+y=-12.00, yfact=  5.00, zterm=  3.34	 Corner B: bx=455.88, by= 96.66
+Original x=3, y=1	 In 3D space x=  3.00, y= -9.00, z=-0.007	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -0.84	 Corner C: cx=403.92, cy=130.84
+Original x=4, y=1	 In 3D space x=  9.00, y= -9.00, z= 0.013	 Projection to X: x-y= 18.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  1.62	 Corner D: dx=455.88, dy=158.38
+
+Cell: i=3, j=1
+Original x=4, y=1	 In 3D space x=  9.00, y= -9.00, z= 0.013	 Projection to X: x-y= 18.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  1.62	 Corner A: ax=455.88, ay=158.38
+Original x=3, y=1	 In 3D space x=  3.00, y= -9.00, z=-0.007	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -0.84	 Corner B: bx=403.92, by=130.84
+Original x=3, y=2	 In 3D space x=  3.00, y= -3.00, z=-0.210	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=-26.90	 Corner C: cx=351.96, cy=186.90
+Original x=4, y=2	 In 3D space x=  9.00, y= -3.00, z=-0.007	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -0.84	 Corner D: dx=403.92, dy=190.84
+
+Cell: i=3, j=2
+Original x=4, y=2	 In 3D space x=  9.00, y= -3.00, z=-0.007	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -0.84	 Corner A: ax=403.92, ay=190.84
+Original x=3, y=2	 In 3D space x=  3.00, y= -3.00, z=-0.210	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=-26.90	 Corner B: bx=351.96, by=186.90
+Original x=3, y=3	 In 3D space x=  3.00, y=  3.00, z=-0.210	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm=-26.90	 Corner C: cx=300.00, cy=216.90
+Original x=4, y=3	 In 3D space x=  9.00, y=  3.00, z=-0.007	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm= -0.84	 Corner D: dx=351.96, dy=220.84
+
+Cell: i=3, j=3
+Original x=4, y=3	 In 3D space x=  9.00, y=  3.00, z=-0.007	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm= -0.84	 Corner A: ax=351.96, ay=220.84
+Original x=3, y=3	 In 3D space x=  3.00, y=  3.00, z=-0.210	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm=-26.90	 Corner B: bx=300.00, by=216.90
+Original x=3, y=4	 In 3D space x=  3.00, y=  9.00, z=-0.007	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm= -0.84	 Corner C: cx=248.04, cy=220.84
+Original x=4, y=4	 In 3D space x=  9.00, y=  9.00, z= 0.013	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= 18.00, yfact=  5.00, zterm=  1.62	 Corner D: dx=300.00, dy=248.38
+
+Cell: i=3, j=4
+Original x=4, y=4	 In 3D space x=  9.00, y=  9.00, z= 0.013	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= 18.00, yfact=  5.00, zterm=  1.62	 Corner A: ax=300.00, ay=248.38
+Original x=3, y=4	 In 3D space x=  3.00, y=  9.00, z=-0.007	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm= -0.84	 Corner B: bx=248.04, by=220.84
+Original x=3, y=5	 In 3D space x=  3.00, y= 15.00, z= 0.026	 Projection to X: x-y=-12.00, xfact=  8.66	 Projection to Y: x+y= 18.00, yfact=  5.00, zterm=  3.34	 Corner C: cx=196.08, cy=246.66
+Original x=4, y=5	 In 3D space x=  9.00, y= 15.00, z=-0.056	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y= 24.00, yfact=  5.00, zterm= -7.15	 Corner D: dx=248.04, dy=287.15
+
+Cell: i=4, j=0
+Original x=5, y=0	 In 3D space x= 15.00, y=-15.00, z= 0.033	 Projection to X: x-y= 30.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  4.23	 Corner A: ax=559.81, ay=155.77
+Original x=4, y=0	 In 3D space x=  9.00, y=-15.00, z=-0.056	 Projection to X: x-y= 24.00, xfact=  8.66	 Projection to Y: x+y= -6.00, yfact=  5.00, zterm= -7.15	 Corner B: bx=507.85, by=137.15
+Original x=4, y=1	 In 3D space x=  9.00, y= -9.00, z= 0.013	 Projection to X: x-y= 18.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  1.62	 Corner C: cx=455.88, cy=158.38
+Original x=5, y=1	 In 3D space x= 15.00, y= -9.00, z=-0.056	 Projection to X: x-y= 24.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -7.15	 Corner D: dx=507.85, dy=197.15
+
+Cell: i=4, j=1
+Original x=5, y=1	 In 3D space x= 15.00, y= -9.00, z=-0.056	 Projection to X: x-y= 24.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -7.15	 Corner A: ax=507.85, ay=197.15
+Original x=4, y=1	 In 3D space x=  9.00, y= -9.00, z= 0.013	 Projection to X: x-y= 18.00, xfact=  8.66	 Projection to Y: x+y=  0.00, yfact=  5.00, zterm=  1.62	 Corner B: bx=455.88, by=158.38
+Original x=4, y=2	 In 3D space x=  9.00, y= -3.00, z=-0.007	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -0.84	 Corner C: cx=403.92, cy=190.84
+Original x=5, y=2	 In 3D space x= 15.00, y= -3.00, z= 0.026	 Projection to X: x-y= 18.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm=  3.34	 Corner D: dx=455.88, dy=216.66
+
+Cell: i=4, j=2
+Original x=5, y=2	 In 3D space x= 15.00, y= -3.00, z= 0.026	 Projection to X: x-y= 18.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm=  3.34	 Corner A: ax=455.88, ay=216.66
+Original x=4, y=2	 In 3D space x=  9.00, y= -3.00, z=-0.007	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y=  6.00, yfact=  5.00, zterm= -0.84	 Corner B: bx=403.92, by=190.84
+Original x=4, y=3	 In 3D space x=  9.00, y=  3.00, z=-0.007	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm= -0.84	 Corner C: cx=351.96, cy=220.84
+Original x=5, y=3	 In 3D space x= 15.00, y=  3.00, z= 0.026	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y= 18.00, yfact=  5.00, zterm=  3.34	 Corner D: dx=403.92, dy=246.66
+
+Cell: i=4, j=3
+Original x=5, y=3	 In 3D space x= 15.00, y=  3.00, z= 0.026	 Projection to X: x-y= 12.00, xfact=  8.66	 Projection to Y: x+y= 18.00, yfact=  5.00, zterm=  3.34	 Corner A: ax=403.92, ay=246.66
+Original x=4, y=3	 In 3D space x=  9.00, y=  3.00, z=-0.007	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y= 12.00, yfact=  5.00, zterm= -0.84	 Corner B: bx=351.96, by=220.84
+Original x=4, y=4	 In 3D space x=  9.00, y=  9.00, z= 0.013	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= 18.00, yfact=  5.00, zterm=  1.62	 Corner C: cx=300.00, cy=248.38
+Original x=5, y=4	 In 3D space x= 15.00, y=  9.00, z=-0.056	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y= 24.00, yfact=  5.00, zterm= -7.15	 Corner D: dx=351.96, dy=287.15
+
+Cell: i=4, j=4
+Original x=5, y=4	 In 3D space x= 15.00, y=  9.00, z=-0.056	 Projection to X: x-y=  6.00, xfact=  8.66	 Projection to Y: x+y= 24.00, yfact=  5.00, zterm= -7.15	 Corner A: ax=351.96, ay=287.15
+Original x=4, y=4	 In 3D space x=  9.00, y=  9.00, z= 0.013	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= 18.00, yfact=  5.00, zterm=  1.62	 Corner B: bx=300.00, by=248.38
+Original x=4, y=5	 In 3D space x=  9.00, y= 15.00, z=-0.056	 Projection to X: x-y= -6.00, xfact=  8.66	 Projection to Y: x+y= 24.00, yfact=  5.00, zterm= -7.15	 Corner C: cx=248.04, cy=287.15
+Original x=5, y=5	 In 3D space x= 15.00, y= 15.00, z= 0.033	 Projection to X: x-y=  0.00, xfact=  8.66	 Projection to Y: x+y= 30.00, yfact=  5.00, zterm=  4.23	 Corner D: dx=300.00, dy=305.77
+
