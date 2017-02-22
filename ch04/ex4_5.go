@@ -6,31 +6,21 @@ package main
 import "fmt"
 
 func main() {
-	x := []string{"aaa", "aaa", "bbb", "ccc", "bbb", "aaa"}
-	//fmt.Printf("Type: %T\n",x)
-	fmt.Println(dedup(x))
-	//nodup(&x)
-	//fmt.Printf("Changed slice: %s\n",x)
+	// This is a slice not an array
+	x := []string{"aaa", "aaa", "bbb", "ccc", "bbb", "aaa", "aaa", "aaa"}
+	fmt.Printf("Changed slice: %s\n",nodup(x))
 }
-/*
-func nodup(s *[6]string){
-	fmt.Printf("In function: %s\n",s)
-	for i = 1; i < len(s); i++ {
-		if s[i] == s[i - 1]{
-		}
-	}
-}
-*/
 
-func dedup(items []string) []string {
-	i := 0
-	last := ""; 
-	for _, s := range items {
-		if s != last {
-			items[i] = s
-			last = s
-			i++
+func nodup(s []string) []string {
+	fmt.Printf("In function: %s\n",s)
+	j := 0
+	last := ""
+	for _, v := range s {
+		if v != last{
+			s[j] = v
+			last = v
+			j++
 		}
 	}
-	return items[:i]
+	return s[:j]
 }
